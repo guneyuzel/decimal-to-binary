@@ -15,10 +15,10 @@ int main (){
      s=s/2;  
      }   
 
-     for(i=i-1 ;i>=0 ;i--){    
+        for(i=i-1 ;i>=0 ;i--){    
      cout << a[i];    
      }     
-    cout << ".";
+     cout << ".";
 
 
 	while (k < 8) {
@@ -31,10 +31,10 @@ int main (){
 		n=na-iv;
 		}
  
-	cout << "\nError Rate= : " << x-h << endl;
+      cout << "\nError Rate= : " << x-h << endl;
 
 
 
-	system("pause");
-	return 0;			
+      system("pause");
+      return 0;			
 }
