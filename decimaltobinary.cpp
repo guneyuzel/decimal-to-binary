@@ -6,8 +6,8 @@ int main (){
 	int k=0, i, iv, a[10], s;
 	double n, na, h=0, x;
 	
-	cout << "Enter The Integer Part (Ex: 5) : "; cin >> s;
-	cout << "Enter the Decimal Part (Ex: 0.4) : "; cin >> n; x=n;
+	cout << "Enter The Whole Number Part (Ex: 5) : "; cin >> s;
+	cout << "Enter the Fractional Part (Ex: 0.4) : "; cin >> n; x=n;
 	cout << "The Number In Binary : ";
 
 	for(i=0; s>0; i++){    
